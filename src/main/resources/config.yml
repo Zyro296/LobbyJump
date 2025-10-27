@@ -1,0 +1,28 @@
+# -------------------------------------------------- #
+#           LobbyJump Plugin Configuration           #
+# -------------------------------------------------- #
+
+# Whether the double jump feature should be enabled globally.
+# Set this to 'false' to quickly disable the feature without removing the plugin.
+enabled: true
+
+jump:
+  # The strength of the forward/directional boost.
+  # A higher value means a stronger push.
+  horizontal-power: 1.5
+
+  # The strength of the upward boost.
+  # A higher value results in more jump height.
+  vertical-power: 1.0
+
+sound:
+  # The sound to be played on jump.
+  # Example: "entity.ghast.shoot"
+  # Set to "NONE" to disable the sound effect.
+  name: "entity.ghast.shoot"
+
+  # The volume of the sound (1.0 = 100%).
+  volume: 1.0
+
+  # The pitch of the sound (1.0 = normal).
+  pitch: 1.0

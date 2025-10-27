@@ -1,0 +1,10 @@
+name: LobbyJump
+version: ${project.version}
+main: gg.irindium.lobbyJump.LobbyJump
+api-version: 1.19
+author: Zyro
+description: Allows double jumping for lobby servers
+permissions:
+  doublejump.use:
+    description: Allows the player to use double jump
+    default: true
